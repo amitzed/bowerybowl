@@ -107,12 +107,10 @@ h5 {
   color: #F1E4B3;
   background-color:rgba(242,97,68,0.2);
   text-shadow: 5px 2px 40px #133046, -5px -2px 40px #15959F;
-  // text-align: center;
   font-size: 17px;
   padding: 15px;
   display: table-cell;
   vertical-align: middle;
-  // text-decoration: underline;
 }
 
 h6 {
@@ -136,7 +134,6 @@ strong {
   -webkit-animation: background-move 30s ease infinite;
   -moz-animation: background-move 30s ease infinite;
   animation: background-move 30s ease infinite;
-  // background-color: #15959F;
   color: #F1E4B3;
   font-family: 'Gloria Hallelujah', cursive;
   font-weight: 100;
@@ -156,6 +153,13 @@ strong {
   color: #F1E4B3;
   text-shadow: 5px 2px 40px #F4A090, -5px -2px 40px #133046;
   background-color:rgba(242,97,68,0.2);
+}
+
+.form-group {
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  color: #133046;
+  text-shadow: 5px 2px 40px #F1E4B3, -5px -2px 40px #15959F;
 }
 
 

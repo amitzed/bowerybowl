@@ -22,3 +22,6 @@ Route::get('/menu', function () {
 Route::get('/reservations', function () {
     return view('reservations');
 });
+
+
+Route::post('reservations/submit', 'MessagesController@submit');

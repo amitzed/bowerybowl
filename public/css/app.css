@@ -10623,6 +10623,13 @@ strong {
   background-color: rgba(242, 97, 68, 0.2);
 }
 
+.form-group {
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  color: #133046;
+  text-shadow: 5px 2px 40px #F1E4B3, -5px -2px 40px #15959F;
+}
+
 /* Animations */
 
 @-webkit-keyframes size-in {
