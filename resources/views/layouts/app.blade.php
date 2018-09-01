@@ -7,8 +7,23 @@
     <link href="https://fonts.googleapis.com/css?family=Caveat|Gloria+Hallelujah|Indie+Flower|Lato|Permanent+Marker" rel="stylesheet">
   </head>
   <body>
+    <br/>
     @include('inc.navbar')
-    @yield('content')
-    @include('inc.sidebar')
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-lg-8">
+          @yield('content')
+        </div>
+        <div class="col-md-4 col-lg-4">
+          <br/>
+          @include('inc.sidebar')
+        </div>
+      </div>
+    </div>
+
+    <footer id="footer" class="text-center">
+      <p>Copyright 2019 &copy; <a href="https://github.com/amitzed" target="_blank">Bowery Bowl</a></p>
+    </footer>
   </body>
 </html>

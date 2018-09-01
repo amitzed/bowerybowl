@@ -10478,11 +10478,11 @@ a.text-dark:focus {
 }
 
 body {
-  background: -webkit-gradient(linear, right top, left top, from(#F4A090), color-stop(#F1E4B3), to(#F4A090));
-  background: linear-gradient(270deg, #F4A090, #F1E4B3, #F4A090);
+  background: -webkit-gradient(linear, right top, left top, from(#F4A090), color-stop(#F4A090), to(#F1E4B3));
+  background: linear-gradient(270deg, #F4A090, #F4A090, #F1E4B3);
   background-size: 400% 400%;
-  -webkit-animation-name: background-move 5s ease infinite;
-          animation-name: background-move 5s ease infinite;
+  -webkit-animation: background-move 50s ease infinite;
+  animation: background-move 50s ease infinite;
 }
 
 .logo {
@@ -10492,10 +10492,24 @@ body {
           animation-name: animation-bounce;
   -webkit-animation-duration: 1.5s;
           animation-duration: 1.5s;
-  -webkit-animation-delay: 1.5s;
-          animation-delay: 1.5s;
+  -webkit-animation-delay: 1.2s;
+          animation-delay: 1.2s;
   border-radius: 50%;
   opacity: .8;
+}
+
+.logoGif {
+  height: 40px;
+  width: 40px;
+  -webkit-box-shadow: 5px 2px 40px #F4A090, -5px -2px 40px #15959F;
+          box-shadow: 5px 2px 40px #F4A090, -5px -2px 40px #15959F;
+  -webkit-animation-name: spin;
+          animation-name: spin;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+  border-radius: 50%;
 }
 
 .navbar-brand {
@@ -10508,8 +10522,8 @@ body {
           animation-name: animation-bounce;
   -webkit-animation-duration: 2s;
           animation-duration: 2s;
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s;
+  -webkit-animation-delay: .2s;
+          animation-delay: .2s;
 }
 
 .form-inline {
@@ -10526,9 +10540,41 @@ a {
   font-size: 20px;
 }
 
+p {
+  font-family: 'Lato', sans-serif;
+  color: #133046;
+  font-size: 17px;
+}
+
 h1 {
   color: #133046;
+  font-family: 'Indie Flower', cursive;
+}
+
+h4 {
+  color: #133046;
+}
+
+.card {
+  background: linear-gradient(45deg, #15959F, #78A1F3, #15959F);
+  background-size: 400% 400%;
+  -webkit-animation: background-move 30s ease infinite;
+  animation: background-move 30s ease infinite;
+  color: #F1E4B3;
   font-family: 'Gloria Hallelujah', cursive;
+  font-weight: 100;
+  margin: 5px;
+  padding: 10px;
+  text-align: justify;
+  border-radius: 10%;
+}
+
+.address {
+  text-align: right;
+  font-family: 'Lato', sans-serif;
+  margin: 5px;
+  padding: 10px;
+  color: #133046;
 }
 
 /* Animations */
@@ -10582,6 +10628,30 @@ h1 {
 
   100% {
     background-position: 0% 50%;
+  }
+}
+
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
   }
 }
 

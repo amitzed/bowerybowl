@@ -17,9 +17,11 @@
 }
 
 body {
-  background: linear-gradient(270deg, #F4A090, #F1E4B3, #F4A090);
+  background: linear-gradient(270deg, #F4A090, #F4A090, #F1E4B3);
   background-size: 400% 400%;
-  animation-name: background-move 5s ease infinite;
+  -webkit-animation: background-move 50s ease infinite;
+  -moz-animation: background-move 50s ease infinite;
+  animation: background-move 50s ease infinite;
 }
 
 .logo {
@@ -28,9 +30,19 @@ body {
   // box-shadow: 5px 2px 40px #F4A090, -5px -2px 40px #15959F;
   animation-name: animation-bounce;
   animation-duration: 1.5s;
-  animation-delay: 1.5s;
+  animation-delay: 1.2s;
   border-radius: 50%;
   opacity: .8;
+}
+
+.logoGif {
+  height: 40px;
+  width: 40px;
+  box-shadow: 5px 2px 40px #F4A090, -5px -2px 40px #15959F;
+  animation-name: spin;
+  animation-duration: 1.5s;
+  animation-delay: 4s;
+  border-radius: 50%;
 }
 
 .navbar-brand {
@@ -41,7 +53,7 @@ body {
   text-shadow: 5px 2px 40px #F4A090, -5px -2px 40px #133046;
   animation-name: animation-bounce;
   animation-duration: 2s;
-  animation-delay: 1s;
+  animation-delay: .2s;
 }
 
 .form-inline {
@@ -58,13 +70,47 @@ a {
   font-size: 20px;
 }
 
+p {
+  font-family: 'Lato', sans-serif;
+  color: #133046;
+  font-size: 17px;
+}
+
 h1 {
   color: #133046;
   // font-family: 'Lato', sans-serif;
-  // font-family: 'Indie Flower', cursive;
-  font-family: 'Gloria Hallelujah', cursive;
+  font-family: 'Indie Flower', cursive;
+  // font-family: 'Gloria Hallelujah', cursive;
   // font-family: 'Permanent Marker', cursive;
   // font-family: 'Caveat', cursive;
+}
+
+h4 {
+  color: #133046;
+}
+
+.card {
+  background: linear-gradient(45deg, #15959F, #78A1F3, #15959F);
+  background-size: 400% 400%;
+  -webkit-animation: background-move 30s ease infinite;
+  -moz-animation: background-move 30s ease infinite;
+  animation: background-move 30s ease infinite;
+  // background-color: #15959F;
+  color: #F1E4B3;
+  font-family: 'Gloria Hallelujah', cursive;
+  font-weight: 100;
+  margin: 5px;
+  padding: 10px;
+  text-align: justify;
+  border-radius: 10%;
+}
+
+.address {
+  text-align: right;
+  font-family: 'Lato', sans-serif;
+  margin: 5px;
+  padding: 10px;
+  color: #133046;
 }
 
 
@@ -83,6 +129,15 @@ h1 {
      50%{background-position:100% 50%}
      100%{background-position:0% 50%}
  }
+
+ @keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
 
 
 @keyframes animation-bounce {
