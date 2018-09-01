@@ -24,6 +24,12 @@ body {
   animation: background-move 50s ease infinite;
 }
 
+.jumbotron {
+  background: linear-gradient(270deg, #F4A090, #F4A090, #F1E4B3);
+  box-shadow: 5px 2px 40px #F4A090, -5px -2px 40px #15959F;
+  padding: 20px;
+}
+
 .logo {
   height: 40px;
   width: 40px;
@@ -43,6 +49,13 @@ body {
   animation-duration: 1.5s;
   animation-delay: 4s;
   border-radius: 50%;
+}
+
+.logoGif2 {
+  height: 40px;
+  width: 100%;
+  box-shadow: 5px 2px 40px #F4A090, -5px -2px 40px #15959F;
+  border-radius: 1%;
 }
 
 .navbar-brand {
@@ -89,6 +102,19 @@ h4 {
   color: #133046;
 }
 
+h5 {
+  font-family: 'Lato', sans-serif;
+  color: #F1E4B3;
+  background-color:rgba(242,97,68,0.2);
+  text-shadow: 5px 2px 40px #133046, -5px -2px 40px #15959F;
+  // text-align: center;
+  font-size: 17px;
+  padding: 15px;
+  display: table-cell;
+  vertical-align: middle;
+  // text-decoration: underline;
+}
+
 h6 {
   font-family: 'Lato', sans-serif;
   color: #F1E4B3;
@@ -98,6 +124,10 @@ h6 {
   padding: 15px;
   display: table-cell;
   vertical-align: middle;
+}
+
+strong {
+  font-size: 22px;
 }
 
 .card {
@@ -114,6 +144,7 @@ h6 {
   padding: 10px;
   text-align: justify;
   border-radius: 10%;
+  width: 100%;
 }
 
 .address {

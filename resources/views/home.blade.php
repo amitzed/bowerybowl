@@ -6,7 +6,7 @@
     }
     #box1, .address{
       border-radius: 1%;
-      height: 100vh;
+      height: 60vh;
       width: 100%;
       background-image: url(images/int2.jpg);
       background-size: cover;
@@ -15,7 +15,7 @@
     }
     #box2{
       border-radius: 1%;
-      height: 100vh;
+      height: 60vh;
       width: 100%;
       background-image: url(images/int1.jpg);
       background-size: cover;
@@ -25,7 +25,7 @@
     #box3{
       border-radius: 1%;
       text-align: center;
-      height: 100vh;
+      height: 60vh;
       width: 100%;
       background-image: url(images/int3.jpg);
       background-size: cover;
