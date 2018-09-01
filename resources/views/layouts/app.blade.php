@@ -23,6 +23,7 @@
     </div>
 
     <footer id="footer" class="text-center">
+      <!-- <img class="pic3" src="{{ asset('images/slurp.gif') }}"> -->
       <p>Copyright 2019 &copy; <a href="https://github.com/amitzed" target="_blank">Bowery Bowl</a></p>
     </footer>
   </body>

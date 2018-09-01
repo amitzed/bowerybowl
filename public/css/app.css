@@ -10555,6 +10555,17 @@ h4 {
   color: #133046;
 }
 
+h6 {
+  font-family: 'Lato', sans-serif;
+  color: #F1E4B3;
+  background-color: rgba(242, 97, 68, 0.2);
+  text-shadow: 5px 2px 40px #133046, -5px -2px 40px #15959F;
+  font-size: 17px;
+  padding: 15px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
 .card {
   background: linear-gradient(45deg, #15959F, #78A1F3, #15959F);
   background-size: 400% 400%;
@@ -10572,9 +10583,12 @@ h4 {
 .address {
   text-align: right;
   font-family: 'Lato', sans-serif;
+  font-size: 17px;
   margin: 5px;
-  padding: 10px;
-  color: #133046;
+  padding: 20px;
+  color: #F1E4B3;
+  text-shadow: 5px 2px 40px #F4A090, -5px -2px 40px #133046;
+  background-color: rgba(242, 97, 68, 0.2);
 }
 
 /* Animations */
