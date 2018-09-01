@@ -10477,6 +10477,14 @@ a.text-dark:focus {
           box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
 
+body {
+  background: -webkit-gradient(linear, right top, left top, from(#F4A090), color-stop(#F1E4B3), to(#F4A090));
+  background: linear-gradient(270deg, #F4A090, #F1E4B3, #F4A090);
+  background-size: 400% 400%;
+  -webkit-animation-name: background-move 5s ease infinite;
+          animation-name: background-move 5s ease infinite;
+}
+
 .logo {
   height: 40px;
   width: 40px;
@@ -10546,6 +10554,34 @@ h1 {
   to {
     -webkit-transform: scale(1);
             transform: scale(1);
+  }
+}
+
+@-webkit-keyframes background-move {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes background-move {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
   }
 }
 

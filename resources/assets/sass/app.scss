@@ -16,6 +16,12 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
 
+body {
+  background: linear-gradient(270deg, #F4A090, #F1E4B3, #F4A090);
+  background-size: 400% 400%;
+  animation-name: background-move 5s ease infinite;
+}
+
 .logo {
   height: 40px;
   width: 40px;
@@ -62,7 +68,6 @@ h1 {
 }
 
 
-
 /* Animations */
 @keyframes size-in {
     from {
@@ -72,6 +77,13 @@ h1 {
       transform: scale(1);
     }
 }
+
+@keyframes background-move {
+     0%{background-position:0% 50%}
+     50%{background-position:100% 50%}
+     100%{background-position:0% 50%}
+ }
+
 
 @keyframes animation-bounce {
   0% { -webkit-transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -500, 0, 0, 1); transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -500, 0, 0, 1); }
