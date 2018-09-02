@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Bowery Bowl</title>
+    <link rel="icon" type="image" href="{{ asset('images/logo2.jpg') }}">
     <link rel="stylesheet" href="/css/app.css">
     <link href="https://fonts.googleapis.com/css?family=Caveat|Gloria+Hallelujah|Indie+Flower|Lato|Permanent+Marker" rel="stylesheet">
   </head>
@@ -16,6 +17,7 @@
       @endif
       <div class="row">
         <div class="col-md-8 col-lg-8">
+          @include('inc.messages')
           @yield('content')
         </div>
         <div class="col-md-4 col-lg-4">
