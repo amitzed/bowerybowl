@@ -11,17 +11,24 @@
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
+// Route::get('/', function () {
+//     return view('home');
+// });
+Route::get('/', 'PagesController@getHome');
 
-Route::get('/menu', function () {
-    return view('menu');
-});
 
-Route::get('/reservations', function () {
-    return view('reservations');
-});
+// Route::get('/menu', function () {
+//     return view('menu');
+// });
+Route::get('/menu', 'PagesController@getMenu');
 
+
+// Route::get('/reservations', function () {
+//     return view('reservations');
+// });
+Route::get('/reservations', 'PagesController@getReservations');
+
+
+Route::get('/messages', 'MessagesController@getMessages');
 
 Route::post('reservations/submit', 'MessagesController@submit');

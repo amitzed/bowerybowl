@@ -38,11 +38,11 @@
   <br/>
     <h1>Ramen Aficionados Rejoice</h1>
     <div id="box1">
-      <h6>After opening multiple restaurants throughout Japan and the United States, chef Matsuhisa made the decision to funnel all if his creative culinary energy to his favorite place in the world: the Lower East Side. Chef Matsuhisa debuted his first restaurant in Kyoto in 1995, and after a highly successful expansion, chose extremely high quality over quantity. This Japanese import serves up highest-quality tonkotsu ramen and many find themselves coming multiple time per week to sample Matsuhisa's newest creations and staple favorites.<br/><img class="logo" src="{{ asset('images/logo2.jpg') }}"></h6>
+      <h6>After opening multiple restaurants throughout Japan and the United States, chef Matsuhisa made the decision to funnel all if his creative culinary energy to his favorite place in the world: the Lower East Side. Chef Matsuhisa debuted his first restaurant in Kyoto in 1995, and after a highly successful expansion, chose maintaining high quality over quantity. This Japanese import serves up the highest-quality tonkotsu ramen and many find themselves coming multiple times per week to sample Matsuhisa's newest creations and staple favorites.<br/><img class="logo" src="{{ asset('images/logo2.jpg') }}"></h6>
     </div>
 
     <div id="box2">
-      <h6>Bowery Bowl is a destination in itself with exclusive menu offerings, all-day dining, and an intimate 12-seat sushi bar in the center of it all.  Located in the space that once housed the legendary music venue CBGB's and featuring an interactive Sushi Bar Omakase tasting menu, a wonderful dining experience can always be expected.<br/><img class="logo" src="{{ asset('images/logo2.jpg') }}"></h6>
+      <h6>Bowery Bowl is a destination in itself with exclusive menu offerings, all-day dining, and an intimate 12-seat sushi bar in the center of it all.  Located in the space that once housed the legendary music venue CBGB's and featuring an interactive Sushi Bar Omakase tasting menu, a wonderful dining experience can always be expected. Due to popularity, reservations are strongly recommended<br/><img class="logo" src="{{ asset('images/logo2.jpg') }}"></h6>
     </div>
 
     <div id="box3">

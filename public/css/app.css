@@ -10486,11 +10486,14 @@ body {
 }
 
 .jumbotron {
-  background: -webkit-gradient(linear, right top, left top, from(#F4A090), color-stop(#F4A090), to(#F1E4B3));
-  background: linear-gradient(270deg, #F4A090, #F4A090, #F1E4B3);
+  background: -webkit-gradient(linear, left top, right top, from(#F4A090), color-stop(#15959F), to(#F1E4B3));
+  background: linear-gradient(90deg, #F4A090, #15959F, #F1E4B3);
   -webkit-box-shadow: 5px 2px 40px #F4A090, -5px -2px 40px #15959F;
           box-shadow: 5px 2px 40px #F4A090, -5px -2px 40px #15959F;
   padding: 20px;
+  background-size: 400% 400%;
+  -webkit-animation: background-move 30s ease infinite;
+  animation: background-move 30s ease infinite;
 }
 
 .logo {
@@ -10587,7 +10590,7 @@ h6 {
   color: #F1E4B3;
   background-color: rgba(242, 97, 68, 0.2);
   text-shadow: 5px 2px 40px #133046, -5px -2px 40px #15959F;
-  font-size: 17px;
+  font-size: 19px;
   padding: 15px;
   display: table-cell;
   vertical-align: middle;
