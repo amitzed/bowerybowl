@@ -33,7 +33,7 @@
       background-attachment: fixed;
     }
 </style>
-
+ 
   @section('content')
   <br/>
     <h1>Ramen Aficionados Rejoice</h1>
