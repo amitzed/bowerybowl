@@ -3,7 +3,7 @@
   <img src="bb1.jpg" width="650" title="hover text">
 </p>
 <p align="center">
-Scroll Down to See More Screen Shots Below:
+Scroll Down to See More Screen Shots:
 </p>
 
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
