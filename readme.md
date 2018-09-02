@@ -2,8 +2,9 @@
 <p align="center">
   <img src="bb1.jpg" width="650" title="hover text">
 </p>
-
-##### Scroll Down to See More Screen Shots Below:
+<p align="center">
+Scroll Down to See More Screen Shots Below:
+</p>
 
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
